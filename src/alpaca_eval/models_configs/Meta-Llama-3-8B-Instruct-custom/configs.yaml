@@ -1,0 +1,18 @@
+Meta-Llama-3-8B-Instruct-custom:
+  completions_kwargs:
+    batch_size: 900
+    # do_sample: true
+    use_beam_search: false
+    max_new_tokens: 4096
+    model_kwargs:
+      dtype: bfloat16
+    # model_name: "meta-llama/Llama-3-8b-chat-hf"
+    model_name: "meta-llama/Meta-Llama-3-8B-Instruct"
+    stop_token_ids:
+    - 128001
+    - 128009
+    temperature: 0.9
+    top_p: 1.0
+  fn_completions: vllm_local_completions
+  pretty_name: "Llama 3 8B Instruct custom"
+  prompt_template: SPPO-Llama-3-Instruct-8B-PairRM/prompt.txt
