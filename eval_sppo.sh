@@ -13,12 +13,13 @@ MODEL_NAMES=(
     # "Meta-Llama-3-8B-Instruct-custom"
     # "Meta-Llama-3-8B-Instruct"
     # "gpt4_1106_preview"
-    "SPPO-Llama-3-Instruct-8B-Iter1-table-custom"
+    # "SPPO-Llama-3-Instruct-8B-Iter1-table-custom"
+    SPPO-Llama-3-Instruct-8B-PairRM
 )
 
 JUDGER=weighted_alpaca_eval_deepseek
 # start from None leaderboards
-LAST_TIME_FINAL_MODEL="gpt4_1106_preview"
+LAST_TIME_FINAL_MODEL="SPPO-Llama-3-Instruct-8B-Iter1-table-custom"
 
 LEADERBOARD="None"
 if [ ! -z $LAST_TIME_FINAL_MODEL ]; then
