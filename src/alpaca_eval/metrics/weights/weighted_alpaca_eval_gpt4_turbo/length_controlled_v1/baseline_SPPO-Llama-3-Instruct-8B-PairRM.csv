@@ -1,0 +1,2 @@
+,np.tanh(std_delta_len),instruction_difficulty,not_gamed_baseline.astype(float)
+SPPO-Llama-3-Instruct-8B-Iter2-custom,-0.9423211352466514,0.3932008035270491,0.1839902770277449

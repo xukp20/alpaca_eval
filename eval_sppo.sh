@@ -13,12 +13,21 @@ MODEL_NAMES=(
     # "gpt4_1106_preview"
     # "SPPO-Llama-3-Instruct-8B-Iter1-table-custom"
     # SPPO-Llama-3-Instruct-8B-PairRM
-    "SPPO-Llama-3-Instruct-8B-Iter2-custom"
+    # "SPPO-Llama-3-Instruct-8B-Iter2-custom"
+    # "SPPO-Llama-3-Instruct-8B-Iter2-table-custom"
+    # "SPPO-Llama-3-Instruct-8B-Iter3-custom"
+    # "SPPO-Llama-3-Instruct-8B-Iter1-table-custom"
+    # "SPPO-Llama-3-Instruct-8B-Iter2-table-custom"
+    # "SPPO-Llama-3-Instruct-8B-Iter3-table-custom"
+    # "SPPO-Llama-3-Instruct-8B-Iter1_RM8B-table-custom"
+    # "SPPO-Llama-3-Instruct-8B-Iter2_RM8B-table-custom"
+    "SPPO-Llama-3-Instruct-8B-Iter3_RM8B-table-custom"
 )
 
 JUDGER=weighted_alpaca_eval_deepseek
 # start from None leaderboards
-LAST_TIME_FINAL_MODEL="SPPO-Llama-3-Instruct-8B-PairRM"
+LAST_TIME_FINAL_MODEL="SPPO-Llama-3-Instruct-8B-Iter2_RM8B-table-custom"
+IS_OVER_WRITE_LEADERBOARD=True
 
 LEADERBOARD="None"
 if [ ! -z $LAST_TIME_FINAL_MODEL ]; then
@@ -26,6 +35,6 @@ if [ ! -z $LAST_TIME_FINAL_MODEL ]; then
 fi
 
 for MODEL_NAME in "${MODEL_NAMES[@]}"; do
-    alpaca_eval evaluate_from_model $MODEL_NAME --annotators_config $JUDGER --precomputed_leaderboard $LEADERBOARD
+    alpaca_eval evaluate_from_model $MODEL_NAME --annotators_config $JUDGER --precomputed_leaderboard $LEADERBOARD --is_overwrite_leaderboard $IS_OVER_WRITE_LEADERBOARD
     LEADERBOARD=results/$MODEL_NAME/$JUDGER/leaderboard.csv
 done

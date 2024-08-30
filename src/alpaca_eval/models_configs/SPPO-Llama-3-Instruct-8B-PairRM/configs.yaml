@@ -1,7 +1,7 @@
 SPPO-Llama-3-Instruct-8B-PairRM:
   completions_kwargs:
     batch_size: 900
-    do_sample: true
+    # do_sample: true
     max_new_tokens: 4096
     model_kwargs:
       dtype: bfloat16
