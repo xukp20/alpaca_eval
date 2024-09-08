@@ -23,15 +23,17 @@ MODEL_NAMES=(
     # "SPPO-Llama-3-Instruct-8B-Iter2_RM8B-table-custom"
     # "SPPO-Llama-3-Instruct-8B-Iter3_RM8B-table-custom"
     # SPPO-Llama-3-Instruct-8B-Iter1-score-table-0.01
-    SPPO-Llama-3-Instruct-8B-Iter2-score-table-0.01
-    SPPO-Llama-3-Instruct-8B-Iter3-score-table-0.01
-    SPPO-Llama-3-Instruct-8B-Iter2-score-table-0.001
-    SPPO-Llama-3-Instruct-8B-Iter3-score-table-0.001
+    # SPPO-Llama-3-Instruct-8B-Iter2-score-table-0.01
+    # SPPO-Llama-3-Instruct-8B-Iter3-score-table-0.01
+    # SPPO-Llama-3-Instruct-8B-Iter2-score-table-0.001
+    # SPPO-Llama-3-Instruct-8B-Iter3-score-table-0.001
+    SPPO-Llama-3-Instruct-8B-Iter2-score-table-0.1
+    SPPO-Llama-3-Instruct-8B-Iter3-score-table-0.1
 )
 
 JUDGER=weighted_alpaca_eval_deepseek
 # start from None leaderboards
-LAST_TIME_FINAL_MODEL="SPPO-Llama-3-Instruct-8B-Iter1-score-table-0.001"
+LAST_TIME_FINAL_MODEL="SPPO-Llama-3-Instruct-8B-Iter3-score-table-0.001"
 IS_OVER_WRITE_LEADERBOARD=True
 
 LEADERBOARD="None"
