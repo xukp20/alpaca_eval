@@ -1,0 +1,2 @@
+,np.tanh(std_delta_len),instruction_difficulty,not_gamed_baseline.astype(float)
+SPPO-Llama-3-Instruct-8B-Iter3-score_gp_8b-0.002,-1.3708890298571186,0.7512533484130826,0.4954060429414887

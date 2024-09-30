@@ -181,6 +181,7 @@ class Analyzer:
             )
 
         results = dict()
+        print(max_majority_vote_1, max_majority_vote_2)
         for idcs_1 in combinations(range(max_majority_vote_1), n_majority_vote_1):
             for idcs_2 in combinations(range(max_majority_vote_2), n_majority_vote_2):
                 is_overlapping_idcs = len(set(idcs_1).intersection(idcs_2)) > 0

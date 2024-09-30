@@ -1,0 +1,69 @@
+########## First turn ##########
+                          score
+model             turn         
+gp_2b_score_iter3 1     8.63125
+bt_2b_score_iter3 1     8.58750
+bt_8b_score_iter1 1     8.53750
+bt_8b_iter1       1     8.52500
+gp_8b_iter2       1     8.45625
+bt_2b_iter2       1     8.36875
+bt_8b_iter2       1     8.33125
+gp_8b_score_iter1 1     8.30000
+gp_8b_iter1       1     8.26875
+bt_2b_iter3       1     8.26250
+gp_8b_score_iter3 1     8.21875
+bt_2b_score_iter2 1     8.20000
+bt_8b_score_iter2 1     8.15625
+bt_2b_score_iter1 1     8.15000
+gp_8b_iter3       1     8.14375
+bt_8b_score_iter3 1     8.11875
+bt_2b_iter1       1     8.10625
+gp_8b_score_iter2 1     8.10625
+bt_8b_iter3       1     8.05000
+
+########## Second turn ##########
+                           score
+model             turn          
+bt_8b_score_iter1 2     8.050000
+bt_8b_iter2       2     7.912500
+gp_2b_score_iter3 2     7.887500
+bt_8b_iter1       2     7.848101
+bt_8b_score_iter3 2     7.762500
+gp_8b_iter2       2     7.706250
+gp_8b_score_iter1 2     7.700000
+bt_2b_score_iter2 2     7.692308
+bt_8b_iter3       2     7.662500
+gp_8b_score_iter2 2     7.645570
+gp_8b_score_iter3 2     7.632911
+gp_8b_iter1       2     7.600000
+bt_2b_iter2       2     7.587500
+gp_8b_iter3       2     7.587500
+bt_8b_score_iter2 2     7.550000
+bt_2b_score_iter3 2     7.537500
+bt_2b_iter1       2     7.437500
+bt_2b_score_iter1 2     7.371795
+bt_2b_iter3       2     7.362500
+
+########## Average ##########
+                      score
+model                      
+bt_8b_score_iter1  8.293750
+gp_2b_score_iter3  8.259375
+bt_8b_iter1        8.188679
+bt_8b_iter2        8.121875
+gp_8b_iter2        8.081250
+bt_2b_score_iter3  8.062500
+gp_8b_score_iter1  8.000000
+bt_2b_iter2        7.978125
+gp_2b_iter2        7.962500
+bt_2b_score_iter2  7.949367
+bt_8b_score_iter3  7.940625
+gp_8b_iter1        7.934375
+gp_8b_score_iter3  7.927673
+gp_8b_score_iter2  7.877358
+gp_8b_iter3        7.865625
+bt_8b_iter3        7.856250
+bt_8b_score_iter2  7.853125
+bt_2b_iter3        7.812500
+bt_2b_iter1        7.771875
+bt_2b_score_iter1  7.765823

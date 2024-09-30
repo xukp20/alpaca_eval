@@ -27,13 +27,87 @@ MODEL_NAMES=(
     # SPPO-Llama-3-Instruct-8B-Iter3-score-table-0.01
     # SPPO-Llama-3-Instruct-8B-Iter2-score-table-0.001
     # SPPO-Llama-3-Instruct-8B-Iter3-score-table-0.001
-    SPPO-Llama-3-Instruct-8B-Iter2-score-table-0.1
-    SPPO-Llama-3-Instruct-8B-Iter3-score-table-0.1
+    # SPPO-Llama-3-Instruct-8B-Iter2-score-table-0.1
+    # SPPO-Llama-3-Instruct-8B-Iter3-score-table-0.1
+
+    # SPPO-Llama-3-Instruct-8B-Iter1_gp_2b
+    # SPPO-Llama-3-Instruct-8B-Iter1_bt_2b
+    # SPPO-Llama-3-Instruct-8B-Iter1_gp_2b_tau01
+
+    # SPPO-Llama-3-Instruct-8B-Iter1-score-table-0.003
+    # SPPO-Llama-3-Instruct-8B-Iter2-score-table-0.003
+    # SPPO-Llama-3-Instruct-8B-Iter3-score-table-0.003
+
+    # SPPO-Llama-3-Instruct-8B-Iter2_gp_2b
+    # SPPO-Llama-3-Instruct-8B-Iter2_bt_2b
+    # SPPO-Llama-3-Instruct-8B-Iter2_gp_2b_tau01
+
+    # SPPO-Llama-3-Instruct-8B-Iter3_gp_2b
+    # SPPO-Llama-3-Instruct-8B-Iter3_bt_2b
+    # SPPO-Llama-3-Instruct-8B-Iter3_gp_2b_tau01
+
+    # SPPO-Llama-3-Instruct-8B-Iter1_bt_8b
+    # SPPO-Llama-3-Instruct-8B-Iter1_gp_8b_tau01
+
+    # SPPO-Llama-3-Instruct-8B-Iter2_bt_8b
+    # SPPO-Llama-3-Instruct-8B-Iter2_gp_8b_tau01
+
+    # SPPO-Llama-3-Instruct-8B-Iter3_bt_8b
+    # SPPO-Llama-3-Instruct-8B-Iter3_gp_8b_tau01
+
+    # SPPO-Llama-3-Instruct-8B-Iter1-score_gp_2b_tau01-0.001
+    # SPPO-Llama-3-Instruct-8B-Iter2-score_gp_2b_tau01-0.001
+    # SPPO-Llama-3-Instruct-8B-Iter3-score_gp_2b_tau01-0.001
+
+    # SPPO-Llama-3-Instruct-8B-Iter1-score_gp_8b_tau01-0.001
+    # SPPO-Llama-3-Instruct-8B-Iter2-score_gp_8b_tau01-0.001
+    # SPPO-Llama-3-Instruct-8B-Iter3-score_gp_8b_tau01-0.001
+
+    # SPPO-Llama-3-Instruct-8B-Iter1-score_gp_2b-0.02
+    # SPPO-Llama-3-Instruct-8B-Iter2-score_gp_2b-0.02
+    # SPPO-Llama-3-Instruct-8B-Iter3-score_gp_2b-0.02
+
+    # SPPO-Llama-3-Instruct-8B-Iter1-score_bt_2b-0.02
+    # SPPO-Llama-3-Instruct-8B-Iter2-score_bt_2b-0.02
+    # SPPO-Llama-3-Instruct-8B-Iter3-score_bt_2b-0.02
+
+    # SPPO-Llama-3-Instruct-8B-Iter1-score_gp_8b-0.002
+    # SPPO-Llama-3-Instruct-8B-Iter2-score_gp_8b-0.002
+    # SPPO-Llama-3-Instruct-8B-Iter3-score_gp_8b-0.002
+
+    # SPPO-Llama-3-Instruct-8B-Iter1-score_bt_8b-0.002
+    # SPPO-Llama-3-Instruct-8B-Iter2-score_bt_8b-0.002
+    # SPPO-Llama-3-Instruct-8B-Iter3-score_bt_8b-0.002
+
+    # SPPO-Llama-3-Instruct-8B-Iter1_gp_2b
+    # SPPO-Llama-3-Instruct-8B-Iter2_gp_2b
+    # SPPO-Llama-3-Instruct-8B-Iter3_gp_2b
+
+    # SPPO-Llama-3-Instruct-8B-Iter1-score_gp_2b-0.001
+    # SPPO-Llama-3-Instruct-8B-Iter2-score_gp_2b-0.001
+    # SPPO-Llama-3-Instruct-8B-Iter3-score_gp_2b-0.001
+
+    # SPPO-Llama-3-Instruct-8B-Iter1_bt_2b
+    # SPPO-Llama-3-Instruct-8B-Iter2_bt_2b
+
+    # SPPO-Llama-3-Instruct-8B-Iter1-score_bt_2b-0.001
+    # SPPO-Llama-3-Instruct-8B-Iter2-score_bt_2b-0.001
+
+    # SPPO-Llama-3-Instruct-8B-Iter3_bt_2b
+    # SPPO-Llama-3-Instruct-8B-Iter3-score_bt_2b-0.001
+
+    SPPO-Llama-3-Instruct-8B-Iter1_gp_8b
+    SPPO-Llama-3-Instruct-8B-Iter2_gp_8b
+    SPPO-Llama-3-Instruct-8B-Iter3_gp_8b
+
+    SPPO-Llama-3-Instruct-8B-Iter1-score_gp_8b-0.002
+    SPPO-Llama-3-Instruct-8B-Iter2-score_gp_8b-0.002
+    SPPO-Llama-3-Instruct-8B-Iter3-score_gp_8b-0.002
 )
 
 JUDGER=weighted_alpaca_eval_deepseek
 # start from None leaderboards
-LAST_TIME_FINAL_MODEL="SPPO-Llama-3-Instruct-8B-Iter3-score-table-0.001"
+LAST_TIME_FINAL_MODEL="SPPO-Llama-3-Instruct-8B-Iter3-score_bt_2b-0.001"
 IS_OVER_WRITE_LEADERBOARD=True
 
 LEADERBOARD="None"
